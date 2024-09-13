@@ -1141,16 +1141,17 @@ body{
     #section .main5>.main5_box>.main5_right ul>li>h2{
         margin-top: 1%;
         font-size: 3.2vw;
+        font-weight: bold;
     }
     #section .main5>.main5_box>.main5_right ul>li>p{
         margin-top: 5px;
         font-size:3vw;
-        font-weight: 800;
+        font-weight: bold;
     }
     #section .main5>.main5_box>.main5_right ul>li>.view{
         width: 100%;
         font-size: 3vw;
-        font-weight: 800;
+        font-weight: bold;
     }
     #section .main5>.main5_box>.main5_right ul>li>.view::before{
         display: none;
