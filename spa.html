@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>lush spa</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!--  -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=New+Amsterdam&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/spa.css">
+    <link rel="stylesheet" href="css/newfooter.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="js/spa.js"></script>
+    <!-- Demo styles -->
+
+</head>
+
+<body>
+    <!-- <div class="cursor">
+        <img src="https://www.selecto.co.kr/assets/images/main/mouse-cursor.png">
+        <img src="images/spa/KakaoTalk_20240911_112558725.gif">
+    </div> -->
+    <header>
+        <div id="header">
+            <div class="menu">
+                <div class="nav">
+                    <h1><a href="index.html"><img src="images/spa/white_lg.png" alt=로고></a></h1>
+                    <ul class="gnb">
+                        <li>
+                            <a href="#">소개</a>
+                            <ul class="sub">
+                                <li><a href="#">역사</a></li>
+                                <li><a href="#">이념과 가치</a></li>
+                                <li><a href="#">브랜드 스토리</a></li>
+                                <li><a href="#">매장안내</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">제품</a>
+                            <ul class="sub">
+                                <li><a href="#">바쓰</a></li>
+                                <li><a href="#">헤어</a></li>
+                                <li><a href="#">페이스</a></li>
+                                <li><a href="#">메이크업</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">스파</a>
+                            <ul class="sub">
+                                <li><a href="spa.html"><span>스파소개</span></a></li>
+                                <li><a href="#">이용방법</a></li>
+                                <li><a href="#">스파 트리트먼트</a></li>
+                                <li><a href="#">스파 매장안내</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">캠페인</a>
+                            <ul class="sub">
+                                <li><a href="camp.html"><span>기부와 나눔</span></a></li>
+                                <li><a href="#">자원순환</a></li>
+                                <li><a href="#">사회공헌</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">커뮤니티</a>
+                            <ul class="sub">
+                                <li><a href="#">러쉬소식</a></li>
+                                <li><a href="#">ART</a></li>
+                                <li><a href="#">리뷰</a></li>
+                                <li><a href="#">이벤트</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="ob_menu">
+            <div class="hamburg_ico"><span class="material-symbols-outlined">
+                    menu
+                </span></div>
+            <div class="logo123"><a href="index.html"><img src="images/spa/logo.png" alt=""></a></div>
+            <div class="close"><img src="images/spa/images_close.svg" alt="x"></div>
+            <div class="column_box">
+                <div class="hamburg_menu">
+                    <ul class="hamburg_gnb">
+                        <li>
+                            <p class="link_menu"><span class="material-symbols-outlined">
+                                    account_circle
+                                </span>소개</p>
+                            <ul class="hamburg_gnb_box">
+                                <li><a href="#">역사</a></li>
+                                <li><a href="#">이념과 가치</a></li>
+                                <li><a href="#">브랜드 스토리</a></li>
+                                <li><a href="#">매장안내</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p class="link_menu"><span class="material-symbols-outlined">
+                                    shopping_bag
+                                </span>제품</p>
+                            <ul class="hamburg_gnb_box">
+                                <li><a href="#">바쓰</a></li>
+                                <li><a href="#">헤어</a></li>
+                                <li><a href="#">페이스</a></li>
+                                <li><a href="#">메이크업</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p class="link_menu"><span class="material-symbols-outlined">
+                                    spa
+                                </span>스파</p>
+                            <ul class="hamburg_gnb_box">
+                                <li><a href="spa.html"><span>스파소개</span></a></li>
+                                <li><a href="#">이용방법</a></li>
+                                <li><a href="#">스파 트리트먼트</a></li>
+                                <li><a href="#">스파 매장안내</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p class="link_menu"><span class="material-symbols-outlined">
+                                    campaign
+                                </span>캠페인</p>
+                            <ul class="hamburg_gnb_box">
+                                <li><a href="camp.html"><span>기부와 나눔</span></a></li>
+                                <li><a href="#">자원순환</a></li>
+                                <li><a href="#">사회공헌</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p class="link_menu"><span class="material-symbols-outlined">
+                                    forum
+                                </span>커뮤니티</p>
+                            <ul class="hamburg_gnb_box">
+                                <li><a href="#">러쉬소식</a></li>
+                                <li><a href="#">ART</a></li>
+                                <li><a href="#">리뷰</a></li>
+                                <li><a href="#">이벤트</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section>
+        <!-- <div id="all_btn">
+            <div data-target="#header" id="top_btn">TOP</div>
+            <div data-target="#product_all" id="product_btn">PRODUCT</div>
+            <div data-target="#guide" id="guide_btn">S_GUIDE</div>
+            <div data-target="#buy" id="buy_btn">B_GUIDE</div>
+        </div> -->
+        <div class="main_bn">
+            <div class="swiper13 mySwiper">
+                <div class="swiper-wrapper13">
+                    <div class="swiper-slide1">
+                        <video src="images/spa/[LUSH] SPA TREATMENT PREVIEW.mp4" id="video_obj1" autoplay muted loop
+                            playsinline></video>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="intro">
+            <h1 class="intro_logo">
+                <img src="images/spa/logo.png" alt="로고">
+                <p>SPA</p>
+            </h1>
+            <div class="txt_box">
+                <p>감성 스파라 불리는 러쉬 스파는 총 12가지 트리트먼트가 있으며 트리트먼트별 각기 다른 음악과 놀라운 퍼포먼스가 함께 진행 됩니다.</p>
+            </div>
+        </div>
+        <div class="product_all" id="product_all">
+            <div class="product">
+                <div class="swiper1 mySwiper1">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide grayscale">Karma</div>
+                        <div class="swiper-slide circle">Synaesthesia</div>
+                        <div class="swiper-slide circle">Tales Of Bath</div>
+                        <div class="swiper-slide grayscale">The Spell</div>
+                        <div class="swiper-slide grayscale">Tailor Made</div>
+                        <div class="swiper-slide circle">The Good Hour</div>
+                        <div class="swiper-slide circle">Validation Facial</div>
+                        <div class="swiper-slide grayscale">Tangled Hair Treatment</div>
+                        <div class="swiper-slide grayscale">Fresh Facial</div>
+                        <div class="swiper-slide circle">Hard Days Night Treatment</div>
+                    </div>
+                    <div class="swiper-pagination2"></div>
+                </div>
+            </div>
+        </div>
+        <div class="guide" id="guide">
+            <div class="marquee_wrap">
+                <div>
+                    <span class="marquee_txt">LUSH SPA LUSH SPA </span>
+                    <span class="marquee_txt">LUSH SPA LUSH SPA</span>
+                </div>
+            </div>
+            <div class="autoslides_wrap">
+                <div class="swiper mySwiper2">
+                    <div class="swiper-wrapper marquee_group mar1">
+                        <div class="swiper-slide"><img src="images/spa/hy_pangyo.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="images/spa/lotte_gwangju.jfif" alt=""></div>
+                        <div class="swiper-slide"><img src="images/spa/itaewon.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="images/spa/hy_pangyo.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="images/spa/lotte_gwangju.jfif" alt=""></div>
+                        <div class="swiper-slide"><img src="images/spa/itaewon.jpg" alt=""></div>
+                    </div>
+                </div>
+                <div class="swiper mySwiper3">
+                    <div class="swiper-wrapper marquee_group mar2">
+                        <div class="swiper-slide"><img src="images/spa/times_square.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="images/spa/hy_daegu.jfif" alt=""></div>
+                        <div class="swiper-slide"><img src="images/spa/sinsegye_cheon.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="images/spa/times_square.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="images/spa/hy_daegu.jfif" alt=""></div>
+                        <div class="swiper-slide"><img src="images/spa/sinsegye_cheon.jpg" alt=""></div>
+                    </div>
+                </div>
+            </div>
+            <div class="click_guide">
+                <div>
+                    <div>
+                        <h1>현대백화점 판교점</h1>
+                    </div>
+                    <div>
+                        <p>주소</p>
+                        <div class="cg_flex_box">
+                            <a href="">
+                                <p class="cont_txt">경기도 성남시 분당구 판교역로 146번길 20 현대백화점 5층
+                                </p>
+                            </a>
+
+                        </div>
+                    </div>
+                    <div>
+                        <p>연락처</p>
+                        <a class="cont_txt" href="tel:031-5170-1587">031-5170-1587</a>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <h1>롯데백화점 광주점</h1>
+                    </div>
+                    <div>
+                        <p>주소</p>
+                        <a href="">
+                            <p class="cont_txt">광주광역시 동구 독립로 268 롯데백화점 8층
+
+                            </p>
+                        </a>
+                    </div>
+                    <div>
+                        <p>연락처</p>
+                        <a class="cont_txt" href="tel:031-5170-1587">062-221-1851</a>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <h1>이태원역점</h1>
+                    </div>
+                    <div>
+                        <p>주소</p>
+                        <a href="">
+                            <p class="cont_txt">서울특별시 용산구 이태원로 179
+
+                            </p>
+                        </a>
+                    </div>
+                    <div>
+                        <p>연락처</p>
+                        <a class="cont_txt" href="tel:031-5170-1587">02-797-7510</a>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <h1>현대백화점 판교점</h1>
+                    </div>
+                    <div>
+                        <p>주소</p>
+                        <a href="">
+                            <p class="cont_txt">경기도 성남시 분당구 판교역로 146번길 20 현대백화점 5층
+
+                            </p>
+                        </a>
+                    </div>
+                    <div>
+                        <p>연락처</p>
+                        <a class="cont_txt" href="tel:031-5170-1587">031-5170-1587</a>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <h1>롯데백화점 광주점</h1>
+                    </div>
+                    <div>
+                        <p>주소</p>
+                        <a href="">
+                            <p class="cont_txt">광주광역시 동구 독립로 268 롯데백화점 8층
+
+                            </p>
+                        </a>
+                    </div>
+                    <div>
+                        <p>연락처</p>
+                        <a class="cont_txt" href="tel:031-5170-1587">062-221-1851</a>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <h1>이태원역점</h1>
+                    </div>
+                    <div>
+                        <p>주소</p>
+                        <a href="">
+                            <p class="cont_txt">서울특별시 용산구 이태원로 179
+
+                            </p>
+                        </a>
+                    </div>
+                    <div>
+                        <p>연락처</p>
+                        <a class="cont_txt" href="tel:031-5170-1587">02-797-7510</a>
+                    </div>
+                </div>
+            </div>
+            <div class="click_guide cg2">
+                <div>
+                    <div>
+                        <h1>타임스퀘어점</h1>
+                    </div>
+                    <div>
+                        <p>주소</p>
+                        <a href="">
+                            <p class="cont_txt">서울특별시 영등포구 영중로 15 타임스퀘어 지하1층
+
+                            </p>
+                        </a>
+                    </div>
+                    <div>
+                        <p>연락처</p>
+                        <a class="cont_txt" href="tel:031-5170-1587">02-2635-7510</a>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <h1>현대백화점 대구점</h1>
+                    </div>
+                    <div>
+                        <p>주소</p>
+                        <a href="">
+                            <p class="cont_txt">대구광역시 중구 달구벌대로 2077 현대백화점 7층
+
+                            </p>
+                        </a>
+                    </div>
+                    <div>
+                        <p>연락처</p>
+                        <a class="cont_txt" href="tel:031-5170-1587">053-245-2753</a>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <h1>현대백화점 천호점</h1>
+                    </div>
+                    <div>
+                        <p>주소</p>
+                        <a href="">
+                            <p class="cont_txt">서울시 강동구 천호대로 1005 현대백화점 천호점 지하1층 러쉬
+
+                            </p>
+                        </a>
+                    </div>
+                    <div>
+                        <p>연락처</p>
+                        <a class="cont_txt" href="tel:031-5170-1587">02-2225-8935</a>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <h1>타임스퀘어점</h1>
+                    </div>
+                    <div>
+                        <p>주소</p>
+                        <a href="">
+                            <p class="cont_txt">서울특별시 영등포구 영중로 15 타임스퀘어 지하1층
+
+                            </p>
+                        </a>
+                    </div>
+                    <div>
+                        <p>연락처</p>
+                        <a class="cont_txt" href="tel:031-5170-1587">02-2635-7510</a>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <h1>현대백화점 대구점</h1>
+                    </div>
+                    <div>
+                        <p>주소</p>
+                        <a href="">
+                            <p class="cont_txt">대구광역시 중구 달구벌대로 2077 현대백화점 7층
+
+                            </p>
+                        </a>
+                    </div>
+                    <div>
+                        <p>연락처</p>
+                        <a class="cont_txt" href="tel:031-5170-1587">053-245-2753</a>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <h1>현대백화점 천호점</h1>
+                    </div>
+                    <div>
+                        <p>주소</p>
+                        <a href="">
+                            <p class="cont_txt">서울시 강동구 천호대로 1005 현대백화점 천호점 지하1층 러쉬
+
+                            </p>
+                        </a>
+                    </div>
+                    <div>
+                        <p>연락처</p>
+                        <a class="cont_txt" href="tel:031-5170-1587">02-2225-8935</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="guide2">
+            <h1>스파 매장 안내</h1>
+            <div class="g2_conts">
+                <div class="g2 g2_left">
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="g2 g2_right">
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="center_big_img">
+                    <div class="on2"></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="center_big_txt">
+                    <div class="on3">
+                        <div>
+                            <h1>현대백화점 판교점</h1>
+                        </div>
+                        <div>
+                            <a href="">
+                                <p class="cont_txt">서울특별시 영등포구 영중로 15 타임스퀘어 지하1층
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <h1>롯데백화점 광주점</h1>
+                        </div>
+                        <div>
+                            <a href="">
+                                <p class="cont_txt">광주광역시 동구 독립로 268 롯데백화점 8층
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <h1>이태원역점</h1>
+                        </div>
+                        <div>
+                            <a href="">
+                                <p class="cont_txt">서울특별시 용산구 이태원로 179
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <h1>타임스퀘어점</h1>
+                        </div>
+                        <div>
+                            <a href="">
+                                <p class="cont_txt">서울특별시 영등포구 영중로 15 타임스퀘어 지하1층
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="buy_wrraper">
+            <div class="buy" id="buy">
+                <h1>스파 이용안내</h1>
+                <ul class="buy_wrraper">
+                    <li>
+                        <img src="images/spa/buy1.png" alt="">
+                        <h3>STEP01</h3>
+                        <p>러쉬 모바일 사이트 스파 카테고리에서<br>
+                            트리트먼트 선택 후 결제를 완료해 주세요. <br>
+                            마이페이지>스파 주문내역 에서 <br>
+                            예약을 신청해 주세요.
+                        </p>
+                    </li>
+                    <li>
+                        <img src="images/spa/buy2.png" alt="">
+                        <h3>STEP02</h3>
+                        <p>마이페이지>스파 주문내역에서<br>
+                            [사용하기>예약하기]버튼을 클릭하여<br>
+                            이용할 스파 매장과 일자 및 시간을<br>
+                            입력하고 예약 신청 접수를 완료해 주세요.
+                        </p>
+                    </li>
+                    <li>
+                        <img src="images/spa/buy3.png" alt="">
+                        <h3>STEP03</h3>
+                        <p>24시간 이내 신청 매장에서 확인 후 <br>
+                            예약 확정 알림톡을 보내드립니다. <br>
+                            예약 신청한 일정에 사전 예약이 있을 경우<br>
+                            일정 조율을 위해 연락드릴 수 있습니다.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="buy2_wrraper">
+            <div class="buy2">
+                <h1>스파 이용안내</h1>
+                <div class="swiper mySwiper4">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="images/spa/buy1.png" alt="">
+                            <h3>STEP01</h3>
+                            <p>러쉬 모바일 사이트 스파 카테고리에서<br>
+                                트리트먼트 선택 후 결제를 완료해 주세요. <br>
+                                마이페이지>스파 주문내역 에서 예약을 신청해 주세요.
+                            </p>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/spa/buy2.png" alt="">
+                            <h3>STEP02</h3>
+                            <p>마이페이지>스파 주문내역에서 <br>
+                                [사용하기>예약하기]버튼을 클릭하여 <br>
+                                이용할 스파 매장과 일자 및 시간을 <br>
+                                입력하고 예약 신청 접수를 완료해 주세요.
+                            </p>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/spa/buy3.png" alt="">
+                            <h3>STEP03</h3>
+                            <p>24시간 이내 신청 매장에서 확인 후 예약 확정 알림톡을 보내드립니다. <br>
+                                예약 신청한 일정에 사전 예약이 있을 경우 일정 조율을 위해 연락드릴 수 있습니다.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div id="footer">
+            <div class="footer_box">
+                <div class="footer_1">
+                    <div class="ft_left">
+                        <h1><img src="images/logowhite.png"></h1>
+                        <p><span>주식회사 러쉬 코리아</span></p>
+                        <address>
+                            <p>서울 강남구 학동로 336 (메이트리 빌딩(matree B/D)) 1층 주식회사 러쉬코리아</p>
+                            <p>상담전화 1664-2357 13:00 ~ 16:00 (평일)</p>
+                            <p>webmaster@lush.co.kr 상담톡 10:00 ~ 16:00 (평일)</p>
+                        </address>
+                    </div>
+                    <div class="ft_right">
+                        <ul class="ft_gnb">
+                            <li>
+                                <a href="#">소개</a>
+                                <ul class="ft_sub">
+                                    <li><a href="#">역사</a></li>
+                                    <li><a href="#">이념과 가치</a></li>
+                                    <li><a href="#">브랜드 스토리</a></li>
+                                    <li><a href="#">매장안내</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">제품</a>
+                                <ul class="ft_sub">
+                                    <li><a href="#">바쓰</a></li>
+                                    <li><a href="#">헤어</a></li>
+                                    <li><a href="#">페이스</a></li>
+                                    <li><a href="#">메이크업</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">스파</a>
+                                <ul class="ft_sub">
+                                    <li><a href="spa.html"><span>스파소개</span></a></li>
+                                    <li><a href="#">이용방법</a></li>
+                                    <li><a href="#">스파 트리먼트</a></li>
+                                    <li><a href="#">스파 매장안내</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">캠페인</a>
+                                <ul class="ft_sub">
+                                    <li><a href="camp.html"><span>기부와 나눔</span></a></li>
+                                    <li><a href="#">자원순환</a></li>
+                                    <li><a href="#">사회공헌</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">커뮤니티</a>
+                                <ul class="ft_sub">
+                                    <li><a href="#">러쉬소식</a></li>
+                                    <li><a href="#">ART</a></li>
+                                    <li><a href="#">리뷰</a></li>
+                                    <li><a href="#">이벤트</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer_2">
+                    <div class="ft_menu">
+                        <p><a href="#">고객센터</a></p>
+                        <p><a href="#">기업선물</a></p>
+                        <p><span><a href="#">개인정보처리방침</a></span></p>
+                        <p><a href="#">영상정보관리지침</a></p>
+                        <p><a href="#">이용약관</a></p>
+                    </div>
+                    <div class="copy">
+                        <p>COPYRIGHT © LUSHKOREA.CO.LTD.ALL RIGHTS RESERVED.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+
+        var swiper2 = new Swiper(".mySwiper1", {
+            spaceBetween: 30,
+            pagination: {
+                el: ".swiper-pagination2",
+                clickable: true,
+            },
+            observer: true,
+            observeParents: true,
+            grid: {
+                rows: 1,
+            },
+            breakpoints: {
+                768
+                    : {
+                    slidesPerView: 2,
+                    grid: {
+                        rows: 2,
+                    },
+                },
+
+                1024: {
+                    slidesPerView: 3,
+                    grid: {
+                        rows: 2,
+                    },
+                }
+            }
+        });
+
+        var swiper3 = new Swiper(".mySwiper2", {
+            observer: true,
+            observeParents: true,
+            direction: "vertical",
+            freeMode: true,
+            slidesPerView: 3,
+            loop: true,
+            speed: 5000,
+            spaceBetween: 10,
+            autoplay: {
+                delay: 0,
+                disableOnInteraction: false,
+            }
+
+        });
+        var swiper4 = new Swiper(".mySwiper3", {
+            observer: true,
+            observeParents: true,
+            direction: "vertical",
+            freeMode: true,
+            slidesPerView: 3,
+            loop: true,
+            speed: 6000,
+            spaceBetween: 10,
+            autoplay: {
+                delay: 0,
+                disableOnInteraction: false,
+                reverseDirection: true,
+            }
+
+        });
+        var swiper5 = new Swiper(".mySwiper4", {
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+</body>
+
+</html>

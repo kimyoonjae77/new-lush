@@ -1,0 +1,6 @@
+<?xml version="1.0" standalone="no"?>
+<svg id="Portal" width="140" height="142" viewBox="0 0 140 142" fill="none" xmlns="http://www.w3.org/2000/svg" style="max-width: 100%; max-height: 100%;">
+<path d="M14.5807 68.7881C42.0515 75.4162 63.1485 98.1604 68.0296 126.366C74.6506 98.6251 97.0046 77.2879 124.733 72.3137C97.2628 65.6856 76.1656 42.9416 71.2842 14.736C64.6635 42.4769 42.3092 63.8138 14.5807 68.7881Z" stroke="black" stroke-width="3" stroke-dasharray="0,0,0,332.05584716796875"><animate attributeType="XML" attributeName="stroke-dasharray" repeatCount="1" dur="1.6129032258064515s" values="0,0,0,332.05584716796875; 
+          0,166.02792358398438,166.02792358398438,0; 
+          332.05584716796875,0,0,0" keyTimes="0; 0.5; 1" fill="freeze"></animate></path>
+</svg>
