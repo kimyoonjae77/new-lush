@@ -1059,7 +1059,11 @@ video {
 
 .buy2 .swiper-slide p {
     font-size: 20pt;
+    width: 80%;
+    margin: 0 auto;
 }
+
+
 
 .buy2 .swiper-button-next,
 .buy2 .swiper-button-prev {
@@ -1487,7 +1491,7 @@ video {
     }
 
     .buy2 .swiper-slide p {
-        font-size: 15pt;
+        font-size: calc(9pt + 1vw);
     }
 
     #footer {
@@ -1527,13 +1531,14 @@ video {
 
     .product {
         width: calc(100% - 100px);
-        height: 50vh;
+        height: 30vh;
     }
 
     .product .swiper-slide {
         border-radius: 50%;
         color: white;
         font-size: 28pt;
+        width: 300px !important;
     }
 
     .product .swiper-slide:hover {
